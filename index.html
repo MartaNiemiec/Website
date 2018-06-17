@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Challenge4 -WebDevChallenges</title>
+  
+    <meta name=”viewport”, content=”initial-scale=1.0”, content=”width=device-width” >
+  <link rel="stylesheet" href="style.css">
+
+<!----- FONT ROBOTO ----->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700" rel="stylesheet">
+    
+<!----- FONT AWESOME ----->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <!--	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		
+		<script type="text/javascript">
+		
+            var number = Math.floor(Math.random()*4)+1;
+            var timer1 = 0;
+            var timer2 = 0;
+            
+            function setSlide(nrOfSlide)
+            {
+                clearTimeout(timer1);
+                clearTimeout(timer2);
+                
+                number = nrOfSlide - 1;
+                
+                hide();
+                setTimeout("changeSlide()",500);
+                
+            }
+            
+            function hide()
+            {
+                $("#slider").fadeOut(500);
+            }
+            
+            function changeSlide() 
+            {
+                number++; if(number>4) number=1;
+                
+                var file = "<img src=\"images/slider" + number + ".jpg\" />";
+                    
+                document.getElementById("slider").innerHTML = file;
+                
+                $("#slider").fadeIn(500);
+                
+                timer1 = setTimeout("changeSlide()",5000);
+                timer2 = setTimeout("hide()",4500);
+                                
+            }
+            
+			
+            
+		</script> -->
+</head>
+<body>  <!-- <body onload="changeSlide()"> -->
+<div class="wrapper">
+        
+<!---- MENU TOP ---->
+    <nav class="menu-top font-regular">
+            <section class="menu-top-bars"><a href="#" class="menu-top-bars-link"><i class="fas fa-bars"></i></a></section>
+            
+            <ul class="menu-top-pages">
+                <li><a href="#" class="menu-top-link">Home</a></li>
+                <li><a href="#" class="menu-top-link">Store</a></li>
+                <li><a href="#" class="menu-top-link">Blog</a></li>
+                <li><a href="#" class="menu-top-link">About</a></li>
+                <li><a href="#" class="menu-top-link">Contact</a></li>
+            </ul>
+            
+            <a href="#" class="menu-top-icon"><i class="fas fa-search"></i></a>
+            
+            <section class="menu-top-socials">
+                <a href="#" class="menu-top-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="menu-top-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="menu-top-icon"><i class="fab fa-google-plus-g"></i></a>
+            </section>
+            
+            <a href="#" class="menu-top-icon"><i class="fas fa-user"></i></a>
+        </nav>
+<!----- .MAIN ----->
+    <div class="main">
+        
+    <!---- .MAIN.column__left ---->
+        
+        <div class="column column__left">
+    <!---- COLUMN__LEFT--LEFT-SIDE ---->
+        <div class="column__left--left-side">
+            
+            <nav class="menu-left font-regular">
+                <ul>
+                    <li><a href="#" class="menu-left-link"><i class="fas fa-home menu-left-icon"></i>Home</a></li>
+                    <li><a href="#" class="menu-left-link"><i class="fas fa-shopping-cart menu-left-icon"></i>Store</a></li>
+                    <li><a href="#" class="menu-left-link"><i class="fas fa-edit menu-left-icon"></i>Blog</a></li>
+                    <li><a href="#" class="menu-left-link"><i class="fas fa-users menu-left-icon"></i>Community</a></li>
+                    <li><a href="#" class="menu-left-link"><i class="fas fa-trophy menu-left-icon"></i>Contests</a></li>
+                    <li><a href="#" class="menu-left-link"><i class="fas fa-info-circle menu-left-icon"></i>About</a></li>
+                    <li><a href="#" class="menu-left-link"><i class="fas fa-envelope menu-left-icon"></i>Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="contact-info font-regular">
+                <div class="row"><i class="fas fa-phone contact-info-icon"></i><span class="contact-info-text">(912) 555-1234<br> (912) 555-5678</span></div>
+                <div class="row"><i class="fas fa-map-marker contact-info-icon"></i><span class="contact-info-text">1600 Pennsylvania<br>Ave NW, Washington<br>DC 20500, USA</span></div>
+                <div class="row"><i class="fas fa-envelope contact-info-icon"></i><span class="contact-info-text">hello@website.com<br>office@website.com</span></div>
+            </div>
+            
+        </div>     <!---- END COLUMN__LEFT--LEFT-SIDE ---->
+        
+    <!---- COLUMN__RIGHT--RIGHT-SIDE ---->
+        <div class="column__left--right-side">
+            
+            <div class="submenu">                
+                <a href="#" class="submenu-title font-light row"><p >Tech </p><i class="fas fa-chevron-circle-right submenu-title-arrow"></i></a> 
+                    
+                <a href="#"><h5 class="font-light">Software &amp; Apps</h5></a>
+                <a href="#"><h5 class="font-light">Gadgets</h5></a>
+                <a href="#"><h5 class="font-light">Mobile</h5></a>
+            </div>
+            
+            <div class="submenu">
+                <a href="#" class="submenu-title font-light row"><p >Entertainment </p><i class="fas fa-chevron-circle-right submenu-title-arrow"></i></a> 
+                    
+                <a href="#"><h5 class="font-light">Film</h5></a>
+                <a href="#"><h5 class="font-light">Gaming</h5></a>
+                <a href="#"><h5 class="font-light">Music</h5></a>
+                <a href="#"><h5 class="font-light">Sport</h5></a>
+            </div>
+            
+            <div class="submenu">
+                <a href="#" class="submenu-title font-light row"><p >Business </p><i class="fas fa-chevron-circle-right submenu-title-arrow"></i></a> 
+                    
+                <a href="#"><h5 class="font-light">Jobs</h5></a>
+                <a href="#"><h5 class="font-light">Marketing</h5></a>
+                <a href="#"><h5 class="font-light">Media</h5></a>
+            </div>
+            
+            <div class="submenu">
+                <a href="#" class="submenu-title font-light row"><p >Lifestyle</p><i class="fas fa-chevron-circle-right submenu-title-arrow"></i></a> 
+                    
+                <a href="#"><h5 class="font-light">Home</h5></a>
+                <a href="#"><h5 class="font-light">Health &amp; Fitmess</h5></a>
+                <a href="#"><h5 class="font-light">Travel &amp; Leisure</h5></a>
+            </div>
+        </div>     <!---- END COLUMN__RIGHT--RIGHT-SIDE ---->
+
+        </div>     <!---- END .MAIN.column__left ---->
+        
+        
+    <!---- .MAIN.COLUMN__RIGHT ---->
+        
+        <div class="column column__right">
+            <div class="socials">
+                <div class="menu-social font-regular">
+                    
+                    <div class="menu-social__item">
+                        <a href="#" class="menu-social__icon"><i class="fab fa-facebook-square"></i></a> <a href="#" class="menu-social__link">Facebook</a>
+                    </div>
+                    
+                    <div class="menu-social__item">
+                        <a href="#" class="menu-social__icon"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#" class="menu-social__link">Twitter</a>
+                    </div>
+                    
+                    <div class="menu-social__item">
+                        <a href="#" class="menu-social__icon"><i class="fab fa-google-plus-square"></i></a>
+                        <a href="#" class="menu-social__link">Google +</a>
+                    </div>
+                    
+                    <div class="menu-social__item">
+                        <a href="#" class="menu-social__icon"><i class="fas fa-rss-square"></i></a>
+                        <a href="#" class="menu-social__link">Rss Feeds</a>
+                    </div>
+                    
+                    <div class="menu-social__item">
+                        <a href="#" class="menu-social__icon"><i class="fab fa-pinterest-square"></i></a>
+                        <a href="#" class="menu-social__link">Pinterest</a>
+                    </div>
+
+                </div>
+
+                <div class="social-widgets">
+                    
+                    <div class="social-widgets__facebook">
+                        <div class="social-widgets--top">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="social-widgets--bottom">
+                            <p class="font-bold">156K</p> <p class="font-light">Follow </p>
+                            <i class="fas fa-plus-circle font-light"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="social-widgets__twitter">
+                        <div class="social-widgets--top">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        
+                        <div class="social-widgets--bottom">
+                            <p class="font-bold">89K</p> 
+                            <p class="font-light">Following</p> 
+                            <i class="fas fa-check-circle font-light"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    <!----- .BOTTOM-BOX ----->
+            
+            <div class="bottom-box">
+                
+    <!----- .BOTTOM-BOX__SIGN-IN ----->
+                
+                <div class="bottom-box__sign-in font-thin">
+                    <h3 class="font-regular">Sign In</h3>
+                    <h5 class="font-regular">Just select your favorite social network to get started</h5>
+                    
+                    <div class="bottom-box__sign--socials">
+                        <i class="fab fa-facebook-square sign--socials-fbIcon"></i>
+                        <i class="fab fa-twitter-square sign--socials-twitterIcon"></i>
+                        <i class="fab fa-google-plus-square sign--socials-googleplusIcon"></i>
+                        <i class="fab fa-linkedin sign--socials-linkedInIcon"></i>
+                    </div>
+                    
+                </div>      <!----- end .BOTTOM-BOX__SIGN-IN ----->
+                
+    <!----- .BOTTOM-BOX__JOIN ----->
+                
+                <div class="bottom-box__join">
+                    <h3 class="font-regular">Join the Newsletter</h3>
+                    <h6 class="font-regular">Sign up for our personalized daily newsletter</h6>
+                    
+                    <div class="bottom-box__join--mail">
+                        <input type="email" placeholder="Enter email address" class="bottom-box__join--mail-address">
+                        <button class="btn btn__sign-up"><h5 class="font-light">SIGN UP</h5></button>
+                    </div>
+                    
+                </div>     <!----- end .BOTTOM-BOX__JOIN ----->
+                
+            </div>    <!----- END .BOTTOM-BOX ----->
+        
+        </div> <!---- END .MAIN.COLUMN__RIGHT ---->
+    </div>  <!----- END .MAIN ----->
+    
+<!----- .SLIDER ----->
+       
+    <div id="slider">
+        
+        <div class="slider__arrow--prev"><a href="" class="slider__arrow"><i class="fas fa-chevron-circle-left"></i></a></div>
+        
+        
+            <div class="slider__content">
+                <div class="slider__content--article">
+                <h1 class="font-light slider__content--article-title">Featured Story</h1>
+                <h6 class="font-thin slider__content--article-text">Now that the holiday gift-giving time is over, we're sure many of our readers unwrapped some new consoles. <br>Despite its long life on the market...</h6>
+                <button class="btn slider__content--article-btn"><h5 class="font-light">VIEW MORE</h5></button>
+            </div>    
+        
+        
+        <div class="slider__content--nav">
+                <i class="far fa-circle slider__content--nav-dott"></i>
+                <i class="fas fa-circle slider__content--nav-dott"></i>
+                <i class="far fa-circle slider__content--nav-dott"></i>
+                <i class="far fa-circle slider__content--nav-dott"></i>
+        </div>
+                </div>
+        
+        <div class="slider__arrow--next "><a href="" class="slider__arrow"><i class="fas fa-chevron-circle-right"></i></a></div>
+        
+    </div>    <!----- END .SLIDER ----->
+        
+<!----- POST-ONE ----->
+    <div class="post-one">
+   
+        <div class="post post__wrapper">
+            
+            <div class="post__icon--wrapper">
+                <i class="fas fa-video post__icon post__icon--video"></i>
+            </div>
+            
+            <div class="post__content">
+                <h3 class="post__content--title">Best story you have ever heard</h3>
+                <h6 class="post__content--time">24 minutes ago</h6>
+                <h5 class="post__content--text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry’s... <a href="#" class="post__content--read-more">Read more</a></h5>
+            </div>
+        
+        
+        </div>
+        
+    
+        <div class="post-one__video--wrapper">
+        
+        <div class="post-one__video--hovered">
+            <a href="" class="font-light"><i class="far fa-heart"></i><p>Like</p></a>
+            <a href="" class="font-light"><i class="far fa-clock"></i><p>Later</p></a>
+            <a href="" class="font-light"><i class="fas fa-share-square"></i><p>Share</p></a>
+        </div>
+        
+        <video controls width="100%" height="300px" class="post-one__video">
+            <source src="images/Ferry_Tour.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="images/Ferry_Tour.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        </div>
+        
+    </div>  <!----- END POST-ONE ----->
+    
+</div> <!---- END .wrapper ---->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
