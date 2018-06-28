@@ -7,4 +7,6 @@ Built using:
 * HTML
 * CSS
 
-live: https://htmlpreview.github.io/?https://github.com/MartaNiemiec/Website/blob/master/index.html
+[LIVE PREVIEW](https://htmlpreview.github.io/?https://github.com/MartaNiemiec/Website/blob/master/index.html)
+
+![Website](4.jpg)
