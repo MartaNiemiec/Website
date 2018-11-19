@@ -7,6 +7,6 @@ Built using:
 * HTML
 * CSS
 
-[LIVE PREVIEW](https://htmlpreview.github.io/?https://github.com/MartaNiemiec/Website/blob/master/index.html)
+[LIVE PREVIEW](https://martaniemiec.github.io/Website/)
 
 ![Website](4.jpg)
